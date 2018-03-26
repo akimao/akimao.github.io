@@ -1,0 +1,49 @@
+﻿@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+	font-family: "Noto Sans", "Noto Sans TC";
+}
+
+h1 {
+	color:#000000;
+	font-family: inherit;
+	font-size:72px;
+	text-transform: none;
+	line-height: 6rem;
+}
+
+a{color:#FF8888}
+a:hover{color:#FF0088}
+
+.text-primary {color:#99BBFF!important}
+
+.english-name {font-size:54px;
+              margin-top:3rem;}
+
+.subheading {
+	font-family: inherit;
+	text-transform: none;
+	margin-top: 1rem;
+}
+
+.address-border { border:3px solid #FFC8B4;
+                  padding:5px;}
+
+.bg-primary{
+	background-color:#FFC8B4!important}
+
+.list-social-icons  a{color:#495057}
+.list-social-icons #facebook a:hover{color:#0000FF}
+.list-social-icons #twitter a:hover{color:#33CCFF}
+.list-social-icons #linkedin a:hover{color:#0066FF}
+.list-social-icons #github a:hover{color:#444444}
+.list-social-icons a .fa-lg{font-size:1.75rem}.list-icons{font-size:3rem}
+
+.navbar-font {
+	font-family:Comic Sans MS;
+	font-size:18px;
+}
+
+.align{ text-align:justify;}
+
+.nav-bar-change a:hover{font-size:20px;}

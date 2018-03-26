@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>怡馨的小檔案 A file of YI-HSIN</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
-
+    <link href="css/myresume.css" rel="stylesheet">
+	
   </head>
 
   <body id="page-top">
@@ -31,31 +32,31 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Start Bootstrap</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="My photo">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse nav-bar-change" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger navbar-font" href="#about">關於我 About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger navbar-font" href="#experience">經驗 Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            <a class="nav-link js-scroll-trigger navbar-font" href="#education">學歷 Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <a class="nav-link js-scroll-trigger navbar-font" href="#skills">技能 Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+            <a class="nav-link js-scroll-trigger navbar-font" href="#interests">興趣 Interests</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+            <a class="nav-link js-scroll-trigger navbar-font" href="#awards">獎項 Awards</a>
           </li>
         </ul>
       </div>
@@ -65,31 +66,33 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">YI-HSIN
-            <span class="text-primary">CHEN</span>
+          <h1 class="mb-0">陳怡馨
+            <span class="text-primary english-name">YI-HSIN,CHEN</span>
           </h1>
-          <div class="subheading mb-5">231 Hsin-Tien District. 0920-055-844
+          <div class="subheading mb-5 address-border ">231新北市新店區民族路
+		  <br>Minzu Rd., Xindian Dist., New Taipei City 231, Taiwan (R.O.C.)<br> 0920-055-844
             <a href="mailto:city231317419@gmail.com">city231317419@gmail.com</a>
           </div>
-          <p class="mb-5">I am enrolled in deaprtment of Informantion and communications at Shih-Hsin University.I can use Premiere,Photoshop,Illustrator and other software.Besides,I am learning how to make a Web page.</p>
+          <p class="mb-5 align">目前就讀於世新大學資訊傳播學系，會使用Adobe Photoshop、Premiere、Illustrator等等照片、影片編輯、排版軟體。除此之外，也正在學習如何撰寫程式語言，如:R語言、HTML、CSS等等。除了目前學校主修之專業，我也很喜歡音樂，是一名鼓手，從國中開始組團，高中參加熱音社，擔任文書及鼓組教學，有豐富的表演經驗，也曾創作過高中畢業歌。
+		  <br>I am enrolled in deaprtment of Informantion and communications at Shih-Hsin University.I can use Premiere,Photoshop,Illustrator and other software.Besides,I am learning how to write programming language,which like RStudio,HTML,CSS and so on.Additionally,I also like music.I am a drummer in a bang,which I play music since junior high period.I entered Rock Music Club when I am in senior high school,which I am secretary and drum teacher in the club.I have a lot of performance experience,also created a high school graduation song.</p>
           <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/profile.php?id=100003178786401">
+            <li class="list-inline-item" id="facebook">
+              <a href="https://www.facebook.com/profile.php?id=100003178786401" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
+            <li class="list-inline-item" id="twitter">
+              <a href="https://twitter.com/skullmao08" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" id="linkedin">
               <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
@@ -97,7 +100,7 @@
                 </span>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item" id="github">
               <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
@@ -111,49 +114,53 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+          <h2 class="mb-5">經驗 Experience</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <h3 class="mb-0">文書 Secretary</h3>
+              <div class="subheading mb-3">熱音社 Rock Music Club</div>
+              <p class="align">處理社團中大小活動會議統整，紀錄社團社課及校外活動繁雜瑣事，協助社內各組。
+			  <br>To deal with the organization of large and small event meetings, to record the social classes and extracurricular activities, and assist the various groups in the club.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
+              <span class="text-primary">June 2015 - July 2016</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <h3 class="mb-0">鼓教 Drum Teacher</h3>
+              <div class="subheading mb-3">熱音社 Rock Music Club</div>
+              <p class="align">教導學弟妹爵士鼓基本打鼓姿勢、基礎節奏，解答他們對於爵士鼓的種種疑惑，協助他們進入熱音的世界。
+			  <br>Teach the Jazz drums basic drum posture, base rhythm, answer their questions about the jazz drums, help them into the world of rock music.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
+              <span class="text-primary">June 2015 - July 2016</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+              <h3 class="mb-0">服務生 Waitress</h3>
+              <div class="subheading mb-3">七見櫻堂 NKSDCHOCO</div>
+              <p class="align">裝飾甜點、蛋糕，清點庫存，製作咖啡、飲品，維持店內清潔，協助客人結帳、點餐。
+			  <br>Decorate desserts and cakes, inventory, make coffee and drinks, keep the shop clean, assist guests to checkout and order meals.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
+              <span class="text-primary">May 2015 - August 2015</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+              <h3 class="mb-0">鼓手 Drummer</h3>
+              <div class="subheading mb-3">GLOW</div>
+              <p class="align">國中時期組的一個女生樂團，擔任鼓手及團長。負責作詞、編鼓，同時協調、整合團內事宜。
+			  <br>A female band in the junior high period, being a drummer and leader. Be responsible for the lyrics and the drum, at the same time coordinate and integrate matters within the band.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
+              <span class="text-primary">July 2012 - July 2013</span>
             </div>
           </div>
 
@@ -163,28 +170,28 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
+          <h2 class="mb-5">教育 Education</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 class="mb-0">世新大學 Shih Hsin University</h3>
+              <div class="subheading mb-3">Information and Communications</div>
+              <div></div>
+              <p></p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
+              <span class="text-primary">August 2017 - June 2021</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 class="mb-0">新店高中 Hsin Tien Senior High</h3>
+              <div class="subheading mb-3">General Subjects </div>
+              <p></p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
+              <span class="text-primary">August 2014 - May 2017</span>
             </div>
           </div>
 
@@ -193,7 +200,7 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-5">技能 Skills</h2>
 
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
@@ -252,15 +259,15 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <h2 class="mb-5">興趣 Interests</h2>
+          <p class="align">我有很多的興趣，平常喜歡聽聽音樂，華語、韓文、日文、歐美等等皆有涉略。因為喜歡音樂，自己也投入到創作行列，開始學樂器、寫歌，喜歡彈吉他、打鼓、唱歌。除了音樂，我也喜歡看電影、韓劇等影視作品，觀賞的同時也在學習。除此之外，我也對極限運動，如:跳傘、高空彈跳等有興趣，雖然一直沒有機會嘗試，但希望有一天能夠挑戰。</p>
+          <p class="mb-0 align">I have a lot of interests. I usually like to listen to music,include Chinese, Korean, Japanese, Europe and the United States music and so on are involved slightly. Because I like music, I started writing and began to learn instruments.I like playing the guitar, drums and singing. In addition to music, I also like to watch movies, Korean dramas and other film and television program.While I watching those video,I also studying. In addition, I am also interested in extreme sports, such as skydiving, bungee jumping and so on, although there has been no chance to try, but I hope one day to be able to challenge.</p>
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <h2 class="mb-5">獎項 Awards &amp; Certifications</h2>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
