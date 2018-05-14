@@ -226,3 +226,7 @@ div.relative {
     position: relative;
     right: 20px;
 }
+
+.sticky-icon {position: fixed;
+              bottom: 20px;
+              right: 20px;}
